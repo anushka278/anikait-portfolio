@@ -135,7 +135,7 @@ function initParticles() {
                     }
                 },
                 color: {
-                    value: ['#667eea', '#764ba2', '#f093fb']
+                    value: ['#8b9cf7', '#9b7bc7', '#d8a7ff']
                 },
                 shape: {
                     type: 'circle',
@@ -167,8 +167,8 @@ function initParticles() {
                 line_linked: {
                     enable: true,
                     distance: 150,
-                    color: '#ffffff',
-                    opacity: 0.4,
+                    color: '#9b7bc7',
+                    opacity: 0.6,
                     width: 1
                 },
                 move: {
@@ -291,11 +291,9 @@ function initSmoothScrolling() {
 window.addEventListener('scroll', function() {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 50) {
-        navbar.style.background = 'rgba(255, 255, 255, 0.95)';
-        navbar.style.backdropFilter = 'blur(20px)';
+        navbar.classList.add('scrolled');
     } else {
-        navbar.style.background = 'rgba(255, 255, 255, 0.25)';
-        navbar.style.backdropFilter = 'blur(20px)';
+        navbar.classList.remove('scrolled');
     }
 });
 
@@ -304,15 +302,7 @@ window.addEventListener('load', function() {
     document.body.classList.add('loaded');
 });
 
-// Parallax effect for hero section
-window.addEventListener('scroll', function() {
-    const scrolled = window.pageYOffset;
-    const parallax = document.querySelector('.hero');
-    if (parallax) {
-        const speed = scrolled * 0.5;
-        parallax.style.transform = `translateY(${speed}px)`;
-    }
-});
+// Removed parallax effect to prevent text overlap issues
 
 // Add hover effects to timeline items
 document.querySelectorAll('.timeline-content').forEach(item => {
