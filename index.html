@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anikait Rawat - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>AR</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="hero-greeting">Hello, I'm</span>
+                    <span class="hero-name">Anikait Rawat</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Incoming freshman at <strong>Vanderbilt University</strong> • Full Tuition Chancellor's Scholar<br>
+                    Double Major in Computer Science & Economics • Minor in Mathematics
+                </p>
+                <div class="hero-buttons">
+                    <a href="#experience" class="btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn-secondary">
+                        <span>Get In Touch</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-avatar">
+                        <div class="avatar-placeholder">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="profile-info">
+                        <h3>Anikait Rawat</h3>
+                        <p>Ballwin, MO</p>
+                        <div class="profile-stats">
+                            <div class="stat">
+                                <span class="stat-number">4000+</span>
+                                <span class="stat-label">Volunteer Hours</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">25k+</span>
+                                <span class="stat-label">Students Impacted</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a passionate entrepreneur, technologist, and leader dedicated to making a positive impact through innovation and community service.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Academic Excellence</h4>
+                                <p>4.67/4.0 GPA • Chancellor's Scholar at Vanderbilt University</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-rocket"></i>
+                            <div>
+                                <h4>Entrepreneurial Spirit</h4>
+                                <p>Founded multiple organizations with significant social impact</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Technical Skills</h4>
+                                <p>Full-stack development with Python, JavaScript, React, and more</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-section">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>Languages</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">Swift</span>
+                                <span class="skill-tag">C++</span>
+                                <span class="skill-tag">HTML/CSS</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Frameworks & Tools</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Stata</span>
+                                <span class="skill-tag">Excel</span>
+                                <span class="skill-tag">AutoCAD</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Languages</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">English</span>
+                                <span class="skill-tag">Hindi</span>
+                                <span class="skill-tag">Spanish</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Leadership</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-year="2016">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Young Chefs STL</h3>
+                            <span class="timeline-role">Executive Director</span>
+                            <span class="timeline-date">2016 - Present</span>
+                        </div>
+                        <p>Run 501(c) nonprofit promoting healthy eating and combating food insecurity. Established 27 global chapters, collaborated with 217 organizations, and hosted 102 cooking demos.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Nonprofit Leadership</span>
+                            <span class="tag">Global Expansion</span>
+                            <span class="tag">Community Impact</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-year="2018">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>AnikaitBakes</h3>
+                            <span class="timeline-role">Founder and CEO</span>
+                            <span class="timeline-date">2018 - Present</span>
+                        </div>
+                        <p>Created and sold baked goods at community events with $10k+ in revenue. Donated 25% of proceeds to local food pantries.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Entrepreneurship</span>
+                            <span class="tag">Social Impact</span>
+                            <span class="tag">Business Development</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-year="2019">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>STEM 4 Youth</h3>
+                            <span class="timeline-role">Co-Founder and Executive Director</span>
+                            <span class="timeline-date">2019 - Present</span>
+                        </div>
+                        <p>Developed STEM curriculum, expanded to 35+ mentors, organized 4 science fairs, and impacted 25,000+ students. Acquired $120,000 grant from Google.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">STEM Education</span>
+                            <span class="tag">Grant Writing</span>
+                            <span class="tag">Program Development</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-year="2019">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>St. Louis University Physics Department</h3>
+                            <span class="timeline-role">Research Assistant</span>
+                            <span class="timeline-date">2019 - Present</span>
+                        </div>
+                        <p>Used Python to conduct data analyses for quantum physics research under Dr. David Wisbey. Co-authored paper on solar optimization utilizing Stata.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Research</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Data Analysis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-year="2022">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Moonpreneur</h3>
+                            <span class="timeline-role">Software Engineer Intern</span>
+                            <span class="timeline-date">2022 - 2023</span>
+                        </div>
+                        <p>Coded deliverables with Python backend and React frontend. Organized daily stand ups, translated meetings into Spanish, and taught robotics classes.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Full-Stack Development</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">React</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Honors & Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>National Youth Science Camp</h3>
+                    <p>Missouri's sole delegate selected. Awarded best public speaker.</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>National STEM Festival Champion</h3>
+                    <p>Awarded free trip to Washington D.C. to present independent research.</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-chess"></i>
+                    </div>
+                    <h3>Chess Champion</h3>
+                    <p>National High School Championship Blitz 1st Place.</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Eagle Scout</h3>
+                    <p>Senior Patrol Leader with extensive community service and leadership.</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Chancellor's Scholar</h3>
+                    <p>Full tuition scholarship to Vanderbilt University.</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>President's Lifetime Volunteer Award</h3>
+                    <p>4000+ volunteer hours from 2013 - Present.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>I'm always excited to discuss new opportunities, collaborations, or just chat about technology and entrepreneurship!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>anikaitrawat27@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>636-368-1285</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Ballwin, MO</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hobbies-section">
+                    <h3>Beyond Work</h3>
+                    <p>When I'm not coding or leading organizations, you'll find me:</p>
+                    <div class="hobbies-grid">
+                        <div class="hobby-item">
+                            <i class="fas fa-cookie-bite"></i>
+                            <span>Baking</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Origami</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-violin"></i>
+                            <span>Playing Violin</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-running"></i>
+                            <span>Marathons</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-book"></i>
+                            <span>Reading</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-tv"></i>
+                            <span>Binge-watching Suits</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-utensils"></i>
+                            <span>Trying New Restaurants</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Anikait Rawat. Designed with ❤️ and lots of ☕</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
